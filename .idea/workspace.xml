@@ -4,12 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="pythonpackaging">
-      <change afterPath="$PROJECT_DIR$/python-ml-package/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-ml-package/tests/pytest.ini.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-ml-package/tests/test_prediction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-ml-package/trained_models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-ml-package/training_pipeline.py" afterDir="false" />
+    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="packaging structure done">
+      <change afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/datasets/test_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonPackagin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonPackagin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/datasets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/datasets/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/datasets/loan_approval_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/datasets/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/processing/data_handling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/processing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/processing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/processing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/processing/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/tests/pytest.ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/tests/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/tests/test_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/tests/test_prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/trained_models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/trained_models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/training_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/training_pipeline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.data_handling.executor": "Run",
     "Python.testing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -60,6 +77,9 @@
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\PackageA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\python-ml-package\packaging-ml-model" />
+      <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\python-ml-package\packaging-ml-model\prediction_model" />
+      <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\python-ml-package" />
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\PackageA" />
     </key>
   </component>
@@ -95,11 +115,20 @@
       <option name="project" value="LOCAL" />
       <updated>1743396565775</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="packaging structure done">
+      <option name="closed" value="true" />
+      <created>1743396867923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743396867923</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pythonpackaging" />
-    <option name="LAST_COMMIT_MESSAGE" value="pythonpackaging" />
+    <MESSAGE value="packaging structure done" />
+    <option name="LAST_COMMIT_MESSAGE" value="packaging structure done" />
   </component>
 </project>
