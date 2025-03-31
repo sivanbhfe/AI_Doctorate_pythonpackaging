@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="packaging structure done">
-      <change afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/VERSION.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/VERSION.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/VERSION.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sivanbhfe"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sivanbhfe&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sivanbhfe/AI_Doctorate_pythonpackaging.git",
-    "accountId": "41ff2ffd-3fc5-4645-aa9d-1db6c8657dad"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sivanbhfe/AI_Doctorate_pythonpackaging.git&quot;,
+    &quot;accountId&quot;: &quot;41ff2ffd-3fc5-4645-aa9d-1db6c8657dad&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -47,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.data_handling.executor": "Run",
     "Python.testing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -130,8 +132,19 @@
       <option name="project" value="LOCAL" />
       <updated>1743401448678</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="packaging structure done">
+      <option name="closed" value="true" />
+      <created>1743401852329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743401852329</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pythonpackaging" />

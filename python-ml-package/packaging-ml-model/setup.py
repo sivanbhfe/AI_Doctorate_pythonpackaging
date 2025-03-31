@@ -1,6 +1,7 @@
 import io
 import os
 from pathlib import Path
+import chardet
 
 from setuptools import find_packages, setup
 
@@ -16,8 +17,15 @@ REQUIRES_PYTHON = '>=3.7.0'
 pwd = os.path.abspath(os.path.dirname(__file__))
 
 # Get the list of packages to be installed
+
+def detect_encoding(fname='requirements.txt'):
+    with open(fname, 'rb') as f:
+        raw_data = f.read()
+        return chardet.detect(raw_data)['encoding']
+
 def list_reqs(fname='requirements.txt'):
-    with io.open(os.path.join(pwd, fname), encoding='utf-8') as f:
+    encoding = detect_encoding(fname)
+    with io.open(os.path.join(os.getcwd(), fname), encoding=encoding) as f:
         return f.read().splitlines()
 
 try:
@@ -31,13 +39,13 @@ except FileNotFoundError:
 ROOT_DIR = Path(__file__).resolve().parent
 PACKAGE_DIR = ROOT_DIR / NAME
 about = {}
-with open(PACKAGE_DIR / 'VERSION') as f:
-    _version = f.read().strip()
-    about['__version__'] = _version
+# with open(PACKAGE_DIR / 'VERSION.csv') as f:
+#     _version = f.read().strip()
+#     about['__version__'] = _version
 
 setup(
     name=NAME,
-    version=about['__version__'],
+    version=1.0,
     description=DESCRIPTION,
     long_description=long_description,
     long_description_content_type='text/markdown',
