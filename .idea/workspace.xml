@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="packaging structure done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\PackageA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin" />
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\python-ml-package\packaging-ml-model" />
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\python-ml-package\packaging-ml-model\prediction_model" />
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\python-ml-package" />
@@ -112,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743399782580</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="packaging structure done">
+      <option name="closed" value="true" />
+      <created>1743399831518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743399831518</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
