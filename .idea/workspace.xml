@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="packaging, installation, pytest done">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="added gitignore.file">
+      <change beforePath="$PROJECT_DIR$/.idea/PythonPackagin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonPackagin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743759225087</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added gitignore.file">
+      <option name="closed" value="true" />
+      <created>1743759283103</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743759283103</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -177,6 +186,7 @@
     <MESSAGE value="packaging structure done" />
     <MESSAGE value="packaging and installation from packaging done" />
     <MESSAGE value="packaging, installation, pytest done" />
-    <option name="LAST_COMMIT_MESSAGE" value="packaging, installation, pytest done" />
+    <MESSAGE value="added gitignore.file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gitignore.file" />
   </component>
 </project>
