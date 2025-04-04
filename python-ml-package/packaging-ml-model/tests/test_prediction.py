@@ -29,3 +29,5 @@ def test_single_pred_not_none(single_prediction): # output is not none
 def test_single_pred_str_type(single_prediction): # data type is integer
     print(f"single_prediction[0]: {single_prediction[0]}, type: {type(single_prediction[0])}")
     assert isinstance(single_prediction[0],numpy.int64)
+def test_single_pred_validate(single_prediction): # data type is integer
+    assert single_prediction[0] == 0
