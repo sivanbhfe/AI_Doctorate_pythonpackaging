@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="packaging and installation from packaging done">
-      <change afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/VERSION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/tests/test_apirunning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/VERSION.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/prediction_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/tests/test_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-ml-package/packaging-ml-model/tests/test_prediction.py" afterDir="false" />
-    </list>
+    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="packaging, installation, pytest done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +52,7 @@
     "Python.testing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/sivan/PycharmProjects/PythonPackagin/PackageA"
   }
 }]]></component>
@@ -156,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743403551194</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="packaging, installation, pytest done">
+      <option name="closed" value="true" />
+      <created>1743759115750</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743759115750</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -166,6 +166,7 @@
     <MESSAGE value="pythonpackaging" />
     <MESSAGE value="packaging structure done" />
     <MESSAGE value="packaging and installation from packaging done" />
-    <option name="LAST_COMMIT_MESSAGE" value="packaging and installation from packaging done" />
+    <MESSAGE value="packaging, installation, pytest done" />
+    <option name="LAST_COMMIT_MESSAGE" value="packaging, installation, pytest done" />
   </component>
 </project>
