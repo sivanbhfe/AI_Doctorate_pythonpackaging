@@ -1,4 +1,4 @@
 name: Loan_Prediction
 entry_points:
   main:
-    command: "python basicML.py"
+    command: "python loan_prediction.py"

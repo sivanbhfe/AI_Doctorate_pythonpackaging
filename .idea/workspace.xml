@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Python Pacaking, MLFlow with MLProject run file">
-      <change afterPath="$PROJECT_DIR$/MLFlow-Manage-ML-Experiments/chekcingmlflow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MLFlow-Manage-ML-Experiments/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MLFlow-Manage-ML-Experiments/UsingPKL-from-mlflow-models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MLFlow-Manage-ML-Experiments/MLProject" beforeDir="false" afterPath="$PROJECT_DIR$/MLFlow-Manage-ML-Experiments/MLProject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MLFlow-Manage-ML-Experiments/basicML.py" beforeDir="false" afterPath="$PROJECT_DIR$/MLFlow-Manage-ML-Experiments/basicML.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MLFlow-Manage-ML-Experiments/loan_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/MLFlow-Manage-ML-Experiments/loan_prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLFlow-Manage-ML-Experiments/chekcingmlflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/MLFlow-Manage-ML-Experiments/CheckingMLFlowRunIDs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +32,12 @@
     &quot;assignee&quot;: &quot;sivanbhfe&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sivanbhfe/AI_Doctorate_pythonpackaging.git",
-    "accountId": "82cda7e0-f633-4eb3-933e-efad8eec8960"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sivanbhfe/AI_Doctorate_pythonpackaging.git&quot;,
+    &quot;accountId&quot;: &quot;82cda7e0-f633-4eb3-933e-efad8eec8960&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -55,6 +54,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.Python tests in test_apirunning.py.executor": "Run",
+    "Python.UsingPKL-from-mlflow-models.executor": "Run",
     "Python.__init__.executor": "Run",
     "Python.app.executor": "Run",
     "Python.basicML.executor": "Run",
@@ -237,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744169574433</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Python Pacaking, MLFlow with MLProject run file">
+      <option name="closed" value="true" />
+      <created>1744174771951</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1744174771951</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
