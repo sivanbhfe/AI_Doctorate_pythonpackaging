@@ -7,8 +7,10 @@ from sklearn.linear_model import ElasticNet
 import numpy as np
 import pandas as pd
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-from mlflow.models import infer_signature
-mlflow.set_tracking_uri("http://localhost:5000")
+import subprocess
+import time
+
+mlflow.set_tracking_uri("http://127.0.0.1:5001/")
 def load_data():
     URL = "http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
     try:
@@ -30,6 +32,8 @@ def main(alpha,l1_ratio):
     y = df[TARGET]
     X_train,X_test,y_train,y_test = train_test_split(X,y,random_state=6, test_size=0.2)
 
+    # Start the MLflow UI
+    # Run the MLflow project
     mlflow.set_experiment("ML-Model-1")
     with mlflow.start_run():
         mlflow.log_param("alpha",alpha)

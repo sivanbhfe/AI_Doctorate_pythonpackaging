@@ -2,3 +2,6 @@
 /python-ml-package/packaging-ml-model/prediction_model.egg-info/
 /.venv1/
 /mlruns/
+/MLFlow-Manage-ML-Experiments/mlruns/
+/mlartifacts/
+/MLFlow-Manage-ML-Experiments/plots/
