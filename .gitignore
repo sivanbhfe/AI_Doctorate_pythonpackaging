@@ -1,4 +1,4 @@
 /python-ml-package/packaging-ml-model/dist/
 /python-ml-package/packaging-ml-model/prediction_model.egg-info/
-/MLFlow-Manage-ML-Experiments/dummy/
-/MLFlow-Manage-ML-Experiments/mlruns/
+/.venv1/
+/mlruns/

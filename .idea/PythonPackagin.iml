@@ -2,13 +2,15 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/MLFlow-Manage-ML-Experiments" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/python-ml-package/packaging-ml-model" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/myvenv/Lib" />
       <excludeFolder url="file://$MODULE_DIR$/myvenv/Scripts" />
       <excludeFolder url="file://$MODULE_DIR$/python-ml-package/packaging-ml-model/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv1" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.10 (PythonPackagin)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

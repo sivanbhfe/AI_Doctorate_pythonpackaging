@@ -7,7 +7,8 @@ from sklearn.linear_model import ElasticNet
 import numpy as np
 import pandas as pd
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-
+from mlflow.models import infer_signature
+mlflow.set_tracking_uri("http://localhost:5000")
 def load_data():
     URL = "http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
     try:
@@ -17,7 +18,8 @@ def load_data():
         raise e
 
 def eval_function(actual,pred):
-    rmse = mean_squared_error(actual,pred,squared=False)
+    mse = mean_squared_error(actual,pred)
+    rmse = np.sqrt(mse)
     mae = mean_absolute_error(actual,pred)
     r2 = r2_score(actual,pred)
     return rmse,mae,r2
@@ -41,7 +43,9 @@ def main(alpha,l1_ratio):
         mlflow.log_metric("rmse",rmse)
         mlflow.log_metric("mae",mae)
         mlflow.log_metric("r2-score",r2)
-        mlflow.sklearn.log_model(model,"trained_model") # model, foldername
+        mlflow.sklearn.log_model(model,input_example=X,
+                                 artifact_path="model",
+                                signature=mlflow.models.infer_signature(X, model.predict(X))) # model, foldername
 
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
