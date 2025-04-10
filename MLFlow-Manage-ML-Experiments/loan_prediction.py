@@ -12,7 +12,7 @@ import mlflow
 import os
 
 # mlflow.set_tracking_uri("http://192.168.0.1:5000")
-# mlflow.set_tracking_uri("http://0.0.0.0:5001/")
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
 # load the dataset
 dataset = pd.read_csv("train.csv")
@@ -114,7 +114,7 @@ model_log = grid_log.fit(X_train, y_train)
 # )
 # model_tree = grid_tree.fit(X_train, y_train)
 
-mlflow.set_experiment("Loan_prediction_Cleaned-up")
+mlflow.set_experiment("Loan_prediction_Cleaned-up-5")
 
 
 # Model evelaution metrics
@@ -138,10 +138,10 @@ def eval_metrics(actual, pred):
     plt.close()
     return (accuracy, f1, auc)
 
-
+print("Tracking URI:", mlflow.get_tracking_uri())
 def mlflow_logging(model, X, y, name):
     with mlflow.start_run() as run:
-        mlflow.set_tracking_uri("http://127.0.0.1:5001/")
+        print("Tracking URI:", mlflow.get_tracking_uri())
         run_id = run.info.run_id
         mlflow.set_tag("run_id", run_id)
         pred = model.predict(X)

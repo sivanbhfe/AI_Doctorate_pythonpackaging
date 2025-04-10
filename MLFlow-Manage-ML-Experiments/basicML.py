@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import subprocess
 import time
 
-mlflow.set_tracking_uri("http://127.0.0.1:5001/")
+mlflow.set_tracking_uri("http://127.0.0.1:5000/")
 def load_data():
     URL = "http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
     try:
@@ -34,7 +34,7 @@ def main(alpha,l1_ratio):
 
     # Start the MLflow UI
     # Run the MLflow project
-    mlflow.set_experiment("ML-Model-1")
+    mlflow.set_experiment("ML-Model-3")
     with mlflow.start_run():
         mlflow.log_param("alpha",alpha)
         mlflow.log_param("l1_ratio",l1_ratio)
