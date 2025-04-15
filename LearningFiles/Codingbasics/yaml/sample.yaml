@@ -1,0 +1,37 @@
+# Hey this is a yaml file
+my-course: "ML Ops Bootcamp"
+version: 1.0
+price: 499
+currency: inr
+is_public: no
+start_date: 2025-03-30
+pre_enroll: null
+# both are lists
+category:
+ - AWS
+ - DevOps
+ - MLOps
+course_dev: ["siva","mithran","parkai"]
+# both are lists
+dev_details:
+ - name: "siva"
+   email: "siva@yahoo.com"
+   role: "developer"
+ - name: "mithran"
+   email: "mithran@yahoo.com"
+   role: "developer"
+ - name: "parkavi"
+   email: "parkavi@yahoo.com"
+   role: "developer"
+ - {name: "anonymous", email: "anonymous@gmail.com", role: "developer"}
+ # both formats with {} and indent and hyphen "-" works the same
+
+# Single line string
+short_description: >
+This a course for MLOps learning 
+for self education
+
+# Multi line string
+detailed_description: |
+This a course for MLOps learning 
+for self education.

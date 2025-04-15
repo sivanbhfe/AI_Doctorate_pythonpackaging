@@ -1,0 +1,2 @@
+Course code:
+https://github.com/manifoldailearning/Complete-MLOps-Bootcamp-v2

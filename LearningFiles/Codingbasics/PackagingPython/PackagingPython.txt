@@ -1,0 +1,48 @@
+# URL: https://packaging.python.org/en/latest/tutorials/packaging-projects/
+# Udemy bootcamp Sourcecode: https://github.com/manifoldailearning/Complete-MLOps-Bootcamp-v2/tree/main
+# Udem bootcamp AIOPs link: https://www.udemy.com/course/mlops-bootcamp-mastering-ai-operations-for-success-aiops/
+
+#For packaging #Key considerations
+requirements.txt # In main package folder - to list all dependencies and give a way to easily install all at one go
+MANIFEST.in # In main package folder - To list which folders/files to include and exclude (similar function like "gitignore" file)
+README.me # In main package folder - To give instructions to install and use the package
+VERSION # In 1 level sub main package folder - To mention version number
+__init.py__ # In 1 level sub main package folder same as VERSION file - To read VERSION number from VERSION file and make it available for setup.py in main package folder
+
+Primary folder
+	__init__.py
+	setup.py
+	Subfolder1
+		__init__.py
+		other py files
+	Subfolder2
+		__init__.py
+		other py files
+		
+		
+#Instructions:
+terminal -> python setup.py sdist bdist_wheel
+# to install all from requirements.txt
+terminal -> pip install -r .\requirements.txt
+# to auto create requirements.txt file in current folder
+terminal ->  pip freeze > requirements.txt
+
+#create new virtual environment
+terminal -> virturalenv ml_package
+
+#sdist creates .tar.gz file containing all files necessary for someone to run set-up again. Contains all sources files .py, readme, including setup.py
+# bdist_wheel creates wheel file is the binary distribution, faster installation does not include all source files
+
+
+#Alternate Instructions:
+terminal -> pip install build
+terminal -> python -m build
+
+does all the work of python setup.py sdist bdist_wheel in one simple comman
+
+
+### Install twine
+terminal -> python setup.py sdist # to create package
+terminal -> twine upload --verbose --repository-url https://test.pypi.org/legacy/ .\dist\siva_unique_10456-0.1.tar.gz # to upload package to pypi test environment
+# to install your package directly from pypi test environment
+terminal -> pip install -i https://test.pypi.org/simple/ siva-unique-10456==0.1 #Use exact url you get once you upload your package

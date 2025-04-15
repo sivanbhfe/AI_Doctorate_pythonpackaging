@@ -1,0 +1,81 @@
+# mlflow run . without yaml
+terminal -> pip install -r requirements.txt # and then run
+terminal -> mlflow run . --env-manager=local # didn't work due to some experiment ID mismatch
+mlflow run . --env-manager=local --experiment-name Loan_prediction_Cleaned-up # this workd fine, mentioning the experiment name as an argument
+mlflow run . --env-manager=local --experiment-name ML-Model-1 # same as above worked fine
+
+###KEY THING###
+# Use exactly this
+http://127.0.0.1:5000/
+
+# To run mlflow in specifi port
+terminal -> mlflow ui --port 5000
+
+###KEY pre-requisite
+# mlflow ui --port 5000 this is a mandatory command before running mlflow run . --env-manager=local --experiment-name ML-Model-1
+
+# Mlflow models pkl files are stored here
+<pythonworkspacefolder>\PythonPackagin\MLFlow-Manage-ML-Experiments\mlruns\275338798101416788\e876cf1719254f48995b5594f81dbda8\artifacts\LogisticRegression
+
+######AAAAAAAAMMMMMMMMMMMZZZZZZZZZZZINNNNNNNNNG
+## Prerequisites
+-> Run pip install virtualenv
+-> install pyenv (using powershell)
+-> Set environment varibles (SYSTEM) 
+PYENV	C:\Users\sivan\.pyenv\pyenv-win\
+PYENV_HOME	C:\Users\sivan\.pyenv\pyenv-win\
+PYENV_ROOT	C:\Users\sivan\.pyenv\pyenv-win\
+# And add two more lines to user variable Path.
+C:\Users\sivan\.pyenv\pyenv-win\bin
+C:\Users\sivan\.pyenv\pyenv-win\shims
+# Mlflow model available as api endpoint
+## run-ID / model name as per your experiment
+terminal -> mlflow models serve -m runs:/e876cf1719254f48995b5594f81dbda8/LogisticRegression --port 9000
+## This creates a new virtual environment within mlflow local folder, installs all dependencies form mlflow/artefacts
+## And run your model as an api endpoints
+
+
+#Desktop Postman
+URL: http://127.0.0.1:9000/invocations
+Method: POST
+Body -> Raw -> json (Actual content take from https://github.com/sivanbhfe/AI_Doctorate_pythonpackaging/blob/master/MLFlow-Manage-ML-Experiments/README.md)
+
+# These will not work
+http://localhost:5000/
+http://0.0.0.0:5000/
+
+
+# Mlflow model available as api endpoint using REGISTERED Models
+## run-ID / model name as per your experiment
+terminal -> mlflow models serve -m "models:/LogisticRegression_MLFlow"
+
+
+
+
+## Connecting to postgresql
+terminal -> pip install psycopg2
+terminal -> mlflow server --host 127.0.0.1 --port 5000 --backend-store-uri postgresql://<username>:<password>@localhost/db_mlflow --default-artifact-root $PWD/mlruns
+terminal -> python basicML.py # Using direct python
+# Starts mlflow ui with postgres backend connection
+# no need to mention 5432, db_mlflow is DB name, $PWD/mlruns where your mlflow data is
+# mlflow server --host 127.0.0.1 --port 5000 --backend-store-uri runs your mlflow in 5000 port
+
+####BEST SET
+terminal -> mlflow ui --port 5000
+terminal -> mlflow run . --env-manager=local --experiment-name ML-Model-1 # Using project file
+
+OR ####BEST SET
+terminal -> mlflow server --host 127.0.0.1 --port 5000 --backend-store-uri postgresql://<username>:<password>@localhost/db_mlflow_2 --default-artifact-root $PWD/mlruns
+terminal -> python basicML.py # Using direct python
+
+### Combination of "mlflow server" and "mlflow run" does not work
+### Dont run two experiments in same port
+
+####BEST SET to run mlflow run on specifi port (without mlflow ui possibly)
+terminal -> set MLFLOW_TRAKCING_URI=http://127.0.0.1:5001
+terminal -> mlflow run . --env-manager=local --experiment-name ML-Model-1 # Using project file
+
+## MODEL REGISTER- > STAGING -> PRODUCTION -> ARCHIVE
+Mlflow Experiment -> Run ID -> Artefacts -> Select Model -> Register
+Go to -> Models page
+## Use Promote model option / tags to create next STAGE of models for different environments (Staging, Prod,Archive)
