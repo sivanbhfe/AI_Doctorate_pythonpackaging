@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Package, MLFlow, API, Postgressql, model serve" />
+    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Code + learning files">
+      <change afterPath="$PROJECT_DIR$/Docker-for-ML/flask-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker-for-ML/flask-app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker-for-ML/flask-app/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker-for-ML/flask-app/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningFiles/Docker/Docker.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,11 +83,11 @@
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\PackageA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\LearningFiles\Codingbasics\yaml" />
+      <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\LearningFiles\Codingbasics\PackagingPython" />
+      <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\LearningFiles" />
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\MLFlow-Manage-ML-Experiments" />
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\python-ml-package\packaging-ml-model" />
-      <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin" />
-      <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\python-ml-package\packaging-ml-model\prediction_model" />
-      <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\python-ml-package" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -267,7 +274,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744278684239</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Code + learning files">
+      <option name="closed" value="true" />
+      <created>1744722516028</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1744722516028</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Code + learning files">
+      <option name="closed" value="true" />
+      <created>1744722554031</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1744722554031</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -284,6 +307,7 @@
     <MESSAGE value="Python Pacaking, MLFlow with MLProject, API endpoint deployed run file" />
     <MESSAGE value="Model packaged, mlflow ui, mlflow model api and all run using mlproject file" />
     <MESSAGE value="Package, MLFlow, API, Postgressql, model serve" />
-    <option name="LAST_COMMIT_MESSAGE" value="Package, MLFlow, API, Postgressql, model serve" />
+    <MESSAGE value="Code + learning files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code + learning files" />
   </component>
 </project>

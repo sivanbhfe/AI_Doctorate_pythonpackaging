@@ -1,0 +1,25 @@
+# Pull and image from docker hub
+	docker run -d -P --name catgif manifoldailearning/catgif
+# -d : Short for --detach. This runs the container in the background (detached mode), so your terminal doesn't get blocked.
+# -P : Short for --publish-all. It tells Docker to randomly map all exposed container ports to available ports on the host.
+For example, if the container exposes port 80, Docker might map it to port 49153 on the host.
+# --name catgif : Assigns a name to your container: catgif. This makes it easier to reference the container later (e.g., docker stop catgif).
+# manifoldailearning/catgif : This is the Docker image being used to create the container. It comes from Docker Hub and likely contains a web service or app related to cat GIFs.
+
+
+# Get port where container is running (this returns your OS port not the actual container port exposed)
+	docker port catgif
+# To run container on specific port in your OS
+	docker run -p 8888:5000 --name catgif manifoldailearning/catgif
+# This will run 5000 port of container in 8888 port of your Host OS
+
+
+# Go to folder where you have Dockerfile, requiremens.txt, templates folder, app.py and run
+	 docker build -t catgifv2 . # . is to run on current folder
+# -t : tag or name of the image
+
+# Push local docker image to docker hub
+	docker login
+	docker tag catgifv2 sivansbhfe/ai-ml-ops:catgifv2 # First tag your image to a HUB repository tag
+	docker push sivansbhfe/ai-ml-ops:catgifv2 # Then pus the tagged image
+# sivansbhfe/ai-ml-ops your docker account and your repository name
