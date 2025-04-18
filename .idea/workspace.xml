@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit + learning files" />
+    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit + learning files">
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/basic-demo-flask/flaskmain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/basic-demo-flask/templates/solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/basic-demo-flask/templates/square.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/datasets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/datasets/loan_approval_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/datasets/test_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/processing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/processing/data_handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/processing/preprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/trained_models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/trained_models/classification.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/prediction_model/training_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/templates/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/tests/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/ml-flask-app/tests/test_prediction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Flask/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningFiles/Codingbasics/Streamlit and Flask/Flask.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build-ML-App-Streamlit/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Build-ML-App-Streamlit/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningFiles/Codingbasics/Streamlit/streamlit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LearningFiles/Codingbasics/Streamlit and Flask/streamlit.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +42,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -48,6 +78,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python tests.Python tests in test_apirunning.py.executor": "Run",
     "Python.CheckingMLFlowRunIDs.executor": "Run",
     "Python.UsingPKL-from-mlflow-models.executor": "Run",
@@ -69,12 +100,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/sivan/__PycharmProjects/PythonPackagin/Build-ML-App-Streamlit",
+    "last_opened_file_path": "C:/Users/sivan/__PycharmProjects/PythonPackagin/Build-ML-App-Flask/ml-flask-app",
     "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\Build-ML-App-Flask\ml-flask-app" />
       <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\Build-ML-App-Streamlit" />
       <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\Build-ML-App-FASTAPI" />
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\PackageA" />
@@ -311,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744971505490</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit + learning files">
+      <option name="closed" value="true" />
+      <created>1744971977238</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1744971977238</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UnknownFeatures">

@@ -1,0 +1,9 @@
+# In code to run on specific port
+if __name__=="__main__":
+    appflask.run(port=5001)
+# Flask can deploy HTML templates
+# Fast API can do this as well but we need to use Jinja2Templates (and related code changes and references)
+Feature	        : Flask	                : FastAPI
+Primary goal	: Full-stack web apps : High-performance APIs
+HTML templates	: Native with Jinja2 :	Supported via Jinja2Templates
+Request context	: Auto-injected	Must : explicitly pass request

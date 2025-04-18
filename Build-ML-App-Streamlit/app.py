@@ -1,11 +1,11 @@
 import streamlit as st
 
 # streamlit run app.py
-st.title("Streamlit Demo Manifold AI learning Murthy")
+st.title("Streamlit and Flask Demo Manifold AI learning Murthy")
 
-st.header(" Heading of Streamlit")
+st.header(" Heading of Streamlit and Flask")
 
-st.subheader("Sub- Heading of Streamlit")
+st.subheader("Sub- Heading of Streamlit and Flask")
 
 st.text("This is an Example Text")
 
