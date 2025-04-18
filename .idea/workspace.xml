@@ -4,12 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Code + learning files">
-      <change afterPath="$PROJECT_DIR$/Docker-for-ML/flask-app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-for-ML/flask-app/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-for-ML/flask-app/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-for-ML/flask-app/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningFiles/Docker/Docker.txt" afterDir="false" />
+    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Packaging, MLFlow, BasicDocker + learning files">
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/loan_fast_api_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/datasets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/datasets/loan_approval_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/datasets/test_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/processing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/processing/data_handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/processing/preprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/trained_models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/trained_models/classification.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/training_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/pydantic-demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Streamlit/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Streamlit/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build-ML-App-Streamlit/streamlit-ml-app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningFiles/Codingbasics/FASTAPI/FASTAPI.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningFiles/Codingbasics/Streamlit/streamlit.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonPackagin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonPackagin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,35 +73,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests in test_apirunning.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CheckingMLFlowRunIDs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UsingPKL-from-mlflow-models.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basicML.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chekcingmlflow.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_handling.executor&quot;: &quot;Run&quot;,
-    &quot;Python.delete_flastapifortestingpytest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dummy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loan_prediction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model-serve.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test-model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testenvfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sivan/__PycharmProjects/PythonPackagin&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python tests.Python tests in test_apirunning.py.executor": "Run",
+    "Python.CheckingMLFlowRunIDs.executor": "Run",
+    "Python.UsingPKL-from-mlflow-models.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.basicML.executor": "Run",
+    "Python.chekcingmlflow.executor": "Run",
+    "Python.data_handling.executor": "Run",
+    "Python.delete_flastapifortestingpytest.executor": "Run",
+    "Python.demo.executor": "Run",
+    "Python.dummy.executor": "Run",
+    "Python.loan_prediction.executor": "Run",
+    "Python.model-serve.executor": "Run",
+    "Python.pydantic-demo.executor": "Run",
+    "Python.test-model.executor": "Run",
+    "Python.testenvfile.executor": "Run",
+    "Python.testing.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/sivan/__PycharmProjects/PythonPackagin/Build-ML-App-FASTAPI",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\Build-ML-App-FASTAPI" />
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\PackageA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -290,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744722554031</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Packaging, MLFlow, BasicDocker + learning files">
+      <option name="closed" value="true" />
+      <created>1744777276871</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1744777276871</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -308,6 +341,7 @@
     <MESSAGE value="Model packaged, mlflow ui, mlflow model api and all run using mlproject file" />
     <MESSAGE value="Package, MLFlow, API, Postgressql, model serve" />
     <MESSAGE value="Code + learning files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code + learning files" />
+    <MESSAGE value="Packaging, MLFlow, BasicDocker + learning files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Packaging, MLFlow, BasicDocker + learning files" />
   </component>
 </project>

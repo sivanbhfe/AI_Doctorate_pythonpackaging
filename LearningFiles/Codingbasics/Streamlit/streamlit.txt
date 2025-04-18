@@ -1,0 +1,5 @@
+# Streamlit is a open source python library to build fast and Impressive Web Apps for Machine learning models
+# No web development experience required
+terminal -> pip install streamlit
+terminal -> streamlit hello # default streamlit webpage
+terminal -> streamlit run app.py # to run custom application python file

@@ -5,3 +5,6 @@
 /MLFlow-Manage-ML-Experiments/mlruns/
 /mlartifacts/
 /MLFlow-Manage-ML-Experiments/plots/
+/fastapi/
+/.venv/
+/streamlit/

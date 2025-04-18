@@ -9,6 +9,8 @@
       <excludeFolder url="file://$MODULE_DIR$/myvenv/Scripts" />
       <excludeFolder url="file://$MODULE_DIR$/python-ml-package/packaging-ml-model/dist" />
       <excludeFolder url="file://$MODULE_DIR$/.venv1" />
+      <excludeFolder url="file://$MODULE_DIR$/fastapi" />
+      <excludeFolder url="file://$MODULE_DIR$/streamlit" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (PythonPackagin)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
