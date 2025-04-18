@@ -1,4 +1,5 @@
 import streamlit as st
+from setuptools import setup
 # streamlit run app.py
 st.title("Streamlit Demo Manifold AI learning Murthy")
 

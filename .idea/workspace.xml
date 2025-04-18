@@ -4,35 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Packaging, MLFlow, BasicDocker + learning files">
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/loan_fast_api_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/VERSION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/config/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/datasets/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/datasets/loan_approval_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/datasets/test_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/processing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/processing/data_handling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/processing/preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/trained_models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/trained_models/classification.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/prediction_model/training_pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/pydantic-demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-FASTAPI/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-Streamlit/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-Streamlit/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build-ML-App-Streamlit/streamlit-ml-app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningFiles/Codingbasics/FASTAPI/FASTAPI.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningFiles/Codingbasics/Streamlit/streamlit.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonPackagin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonPackagin.iml" afterDir="false" />
+    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit + learning files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build-ML-App-Streamlit/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Build-ML-App-Streamlit/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningFiles/Codingbasics/Streamlit/streamlit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LearningFiles/Codingbasics/Streamlit/streamlit.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,12 +73,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/sivan/__PycharmProjects/PythonPackagin/Build-ML-App-FASTAPI",
+    "last_opened_file_path": "C:/Users/sivan/__PycharmProjects/PythonPackagin/Build-ML-App-Streamlit",
     "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\Build-ML-App-Streamlit" />
       <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\Build-ML-App-FASTAPI" />
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\PackageA" />
     </key>
@@ -323,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744777276871</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit + learning files">
+      <option name="closed" value="true" />
+      <created>1744970622142</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1744970622142</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -342,6 +326,7 @@
     <MESSAGE value="Package, MLFlow, API, Postgressql, model serve" />
     <MESSAGE value="Code + learning files" />
     <MESSAGE value="Packaging, MLFlow, BasicDocker + learning files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Packaging, MLFlow, BasicDocker + learning files" />
+    <MESSAGE value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit + learning files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit + learning files" />
   </component>
 </project>

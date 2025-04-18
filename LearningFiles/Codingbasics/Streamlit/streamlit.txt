@@ -3,3 +3,14 @@
 terminal -> pip install streamlit
 terminal -> streamlit hello # default streamlit webpage
 terminal -> streamlit run app.py # to run custom application python file
+
+# Login to Streamlit
+# Authorize Streamlit to access your GitHub
+# Load your app.py in Github
+# In Streamlit -> Create App
+# Point to your GitHub Repo -> app.py
+# Creates app with code available in app.py (from Github)
+
+## IF errored
+# Use "Paste GitHub URL option"
+# And directly paste the app.py github url
