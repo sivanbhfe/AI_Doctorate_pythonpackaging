@@ -1,0 +1,62 @@
+# Updates all necessary linux plugins
+-> sudo yum update
+# displays current working directory
+-> pwd
+# Create new folder
+-> mkdir new_folder
+-> mkdir -p ~/test/qa/dev # to create parent and child directory at the same time
+# list with details
+-> ls -l OR ll
+# remove directory - recursively delete all folder content
+-> rm -r my_dir
+# Go to home directory
+-> cd ~/
+# Create file
+-> touch test.txt
+# print in terminal
+-> echo "hello"
+# write to file
+-> echo "hello" > test.txt
+# print content of file (all lines, more lines, less lines)
+-> cat test.txt
+-> more test.txt
+-> less test.txt
+# Open file editor
+-> vi test.txt
+-> inside file -> i # to start editing
+-> inside file -> ESC # to stop editing
+-> inside file -> :q # exit without saving
+-> inside file -> :wq # exit with saving
+-> inside file -> :q! # forcefully exit without saving
+-> inside file -> :wq! # forcefully exit with saving
+
+# copy file
+-> cp config.txt config.java # config.txt copied as a new file config.java
+-> cp config.txt ~/config.txt #  config.txt copied to ~/ home location
+
+# copy folder - recursively all content of the folder
+-> cp -r testdir/ newdir/ # testdir is copied to newdir at current pwd
+
+# move / rename file, folder
+-> mv testdir newdir # renames testdir to newdir
+-> mv testdir ~/newdir # move (Cut and paste) testdir from current location to home location as newdir
+# / makes a difference mv now tmp - renames now folder to tmp, mv now /tmp - moves now folder to tmp folder
+
+# PERMISSIONS
+drwxrwxr-x  3 ec2-user ec2-user 16 Apr 2025 12:01 dev
+-rw-rw-r-- 1 ec2-user ec2-user 0 Apr 22 12:02 config.txt
+# ec2-user - 2 times: user name and group name
+# d starting means directory
+# - starting means file
+drwxrwxr-x : read write and execution permission for owner
+-rw-rw-r-- : read write and execution permission for owner
+r-- : read only for others
+
+# Change owner
+-> chown user:group filename/dirname
+
+# Change persmissions
+-> chmod 777 file/dir : rwx for root, rwx for owner, rwx for others
+-> chmod 764 file/dir : rwx for root, rw for owner, r for others
+-> chmod 755 file/dir : rwx for root, rw for owner, rw for others
+-> chmod 400 file/dir : r for root, no permission for owner and others
