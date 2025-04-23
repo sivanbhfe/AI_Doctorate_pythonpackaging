@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux + learning files">
-      <change afterPath="$PROJECT_DIR$/LearningFiles/Linux-Basics/linux_commans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningFiles/GitHub_Actions/GitHubActions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_actions/first-github.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,36 +49,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python tests.Python tests in test_apirunning.py.executor": "Run",
-    "Python.CheckingMLFlowRunIDs.executor": "Run",
-    "Python.UsingPKL-from-mlflow-models.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.basicML.executor": "Run",
-    "Python.chekcingmlflow.executor": "Run",
-    "Python.data_handling.executor": "Run",
-    "Python.delete_flastapifortestingpytest.executor": "Run",
-    "Python.demo.executor": "Run",
-    "Python.dummy.executor": "Run",
-    "Python.loan_prediction.executor": "Run",
-    "Python.model-serve.executor": "Run",
-    "Python.pydantic-demo.executor": "Run",
-    "Python.test-model.executor": "Run",
-    "Python.testenvfile.executor": "Run",
-    "Python.testing.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/sivan/__PycharmProjects/PythonPackagin/LearningFiles/Linux-Basics",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python tests.Python tests in test_apirunning.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CheckingMLFlowRunIDs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UsingPKL-from-mlflow-models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basicML.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chekcingmlflow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_handling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delete_flastapifortestingpytest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dummy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.loan_prediction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model-serve.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pydantic-demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test-model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testenvfile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sivan/__PycharmProjects/PythonPackagin/LearningFiles/Linux-Basics&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\LearningFiles\Linux-Basics" />
@@ -342,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745208701246</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux + learning files">
+      <option name="closed" value="true" />
+      <created>1745324604892</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1745324604892</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="UnknownFeatures">
