@@ -1,1 +1,23 @@
 Refer to https://github.com/sivanbhfe/AiDoctorate_CICDGithubactions/tree/master/ci-cd-python
+
+1. ECR Registry
+2. EC2, Docker Repo, Authenticate Docker to access EC2
+3. Set up Github actions secret
+
+# Create EC2
+# Assign IAM role
+# Create ECR Repo (Container registry)
+ - Name used should match with app name mentioned in githubactions yaml file
+# Open EC2 shell
+ # Run series of commands in README.md file
+# Authenticate docker to the EC2 instance
+- Refer to README.md file
+    # Go to Container Repo
+    # Click on Container Repo
+    # View push commans
+    # Copy authentication command
+    # Run in EC2 shell
+# Set Secret keys and values in AWS
+# Got to Gitrepo -> Settings -> Secrets -> Actions
+# Configure Secret keys and values (values are from AWS SecretsManager)
+- These values are used in github actions -> yaml file
