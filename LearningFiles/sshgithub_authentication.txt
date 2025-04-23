@@ -1,0 +1,17 @@
+1. To generate key
+ssh-keygen -t ed25519 -C "sivansbhfe@gmail.com"
+2. Two files created
+id_ed25519
+id_ed25519.pub
+3. Copy all content from id_ed25519.pub to https://github.com/settings/keys (SSH and GPG Keys)
+Example: ssh-ed25519 AAABC3NzaDC1lZOPI1NTE5AAAAIGKo/GXvB50wxjVYRTj5znEv3oJ08TBBBsnEt2Th7nOz sivansbhfe@gmail.com
+4. Start the agent
+eval "$(ssh-agent -s)"
+5. And add your key
+ssh-add <file location were you created id_ed25519>/id_ed25519
+Result be like: Identity added: ./id_ed25519 (sivansbhfe@gmail.com)
+
+
+# this should be run for every gitbash terminal connection
+- Start agent
+- Add key

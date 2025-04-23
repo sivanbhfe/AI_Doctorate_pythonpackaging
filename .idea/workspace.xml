@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux + learning files">
-      <change afterPath="$PROJECT_DIR$/LearningFiles/GitHub_Actions/GitHubActions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_actions/first-github.yaml" afterDir="false" />
+    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions + learning files">
+      <change afterPath="$PROJECT_DIR$/LearningFiles/sshgithub_authentication.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_actions/refertorepo_AiDoctorate_GitHubWorkflows" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningFiles/GitHub_Actions/GitHubActions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LearningFiles/GitHub_Actions/GitHubActions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github_actions/first-github.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,7 +353,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745324604892</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions + learning files">
+      <option name="closed" value="true" />
+      <created>1745384059204</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1745384059204</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions + learning files">
+      <option name="closed" value="true" />
+      <created>1745384127437</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1745384127437</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -373,6 +391,7 @@
     <MESSAGE value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit + learning files" />
     <MESSAGE value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask + learning files" />
     <MESSAGE value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux + learning files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux + learning files" />
+    <MESSAGE value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions + learning files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions + learning files" />
   </component>
 </project>

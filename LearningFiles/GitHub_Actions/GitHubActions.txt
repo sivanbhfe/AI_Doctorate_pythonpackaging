@@ -1,0 +1,8 @@
+# Create local repository
+main folder -> .github/workflows (sub folder mandatory)
+# Create yaml file under sub folder .github/workflows
+# User template file
+# Remote repo push will trigger the actions
+# You can see the results in "Actions" tab in Github
+
+# You can run multiple yaml file (actions under single repot and .github/workflows folder)
