@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions + learning files">
-      <change afterPath="$PROJECT_DIR$/LearningFiles/sshgithub_authentication.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_actions/refertorepo_AiDoctorate_GitHubWorkflows" afterDir="false" />
+    <list default="true" id="1f7e7232-3d25-4365-a125-1b7b9c425b46" name="Changes" comment="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions-Workflow + learning files">
+      <change afterPath="$PROJECT_DIR$/LearningFiles/CICDPipelines/CICD_Pipelines.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ci-cd-python/.github/workflows/actions.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ci-cd-python/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ci-cd-python/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ci-cd-python/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ci-cd-python/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningFiles/GitHub_Actions/GitHubActions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LearningFiles/GitHub_Actions/GitHubActions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_actions/first-github.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +92,11 @@
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\PackageA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\LearningFiles\GitHub_Actions" />
       <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\LearningFiles\Codingbasics\yaml" />
       <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\LearningFiles\Codingbasics\PackagingPython" />
       <recent name="C:\Users\sivan\__PycharmProjects\PythonPackagin\LearningFiles" />
       <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\MLFlow-Manage-ML-Experiments" />
-      <recent name="C:\Users\sivan\PycharmProjects\PythonPackagin\python-ml-package\packaging-ml-model" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -369,7 +371,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745384127437</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions-Workflow + learning files">
+      <option name="closed" value="true" />
+      <created>1745388387158</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1745388387158</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions-Workflow + learning files">
+      <option name="closed" value="true" />
+      <created>1745388406216</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1745388406216</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -392,6 +410,7 @@
     <MESSAGE value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask + learning files" />
     <MESSAGE value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux + learning files" />
     <MESSAGE value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions + learning files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions + learning files" />
+    <MESSAGE value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions-Workflow + learning files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Packaging, MLFlow, BasicDocker, FASTAPI, Pydantic, Streamlit, Flask, Linux, GitHubActions-Workflow + learning files" />
   </component>
 </project>
